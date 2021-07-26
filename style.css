@@ -15,21 +15,21 @@
   }
 
 
-.menu__item:hover {
-    background: white;
-    border-bottom: none;
-    border-right: 1px solid #CFCFCF;
-    border-left: 1px solid #CFCFCF;
-    margin: 0 -1px;
-  }
-  
-  .menu__item--current .menu__item__link {
-    color: #333333;
+ .menu__item:hover{
+   background-color: white;
+   border-bottom: none;
+   border-right: 1px solid #CFCFCF;
+   border-left: 1px solid #CFCFCF;
+   margin: 0 -1rem;
+ }
+
+.menu__item--current .menu_item_link{
+    color: #be0e0e;
     border-bottom: 2px solid #333;
-    padding-bottom: 0.3rem;
-  }
-  
-  .menu__item__link {
+    padding-bottom: 0.2rem;
+}
+
+.menu__item__link {
     text-decoration: none;
     color: #555;
     font-family: Roboto;
